@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+html, body {
+    font-family: Poppins, sans-serif;    
+    font-size: 16px;
+    background-color: white;
+}
+.wide-wrapper{
+    width: 1487px;
+    margin: 0 auto;
+}
+.wrapper{
+    width: 1296px;
+    margin: 0 auto;
+}
+header{
+    padding: 22px 0;
+    }
+.logo,
+.navigation,
+.Buy{
+    display: inline-block;
+}
+
+.logo{
+    width: 720px;
+    font-weight: 600;
+    font-size: 27px;
+}
+.navigation{
+    font-weight: 500;
+    vertical-align: 20px;
+    text-align: right;
+    font-size: 21px;
+    line-height: 120%;
+ }
+.navigation-icon{
+    color: black;
+    text-decoration: none;
+    margin-left: 24px;
+}
+a.Buy{
+    border: 1px solid blue;
+    color: blue;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+ }
+ .phone-img,
+ .phone-text{
+    display: inline-block;
+ }
+ .phone-text{
+    width: 631px;
+    vertical-align: top;
+    padding-left: 90px;
+    padding-top: 200px;
+    }
+    h1{
+    text-align: left;
+    font-size: 47px;
+    margin: 24px 0;
+    font-weight: 700;
+    }
+    .phone-paragraph{
+        margin: 0 0;
+        font-size: 16px;
+    }
+     .info-button{
+        margin: 34px auto;
+     }
+    .main-button{
+    padding: 10px 16px;
+    text-align: center;
+    background: #0062FF;
+    color: white;
+    margin: 0 auto;
+    text-decoration: none;
+     }
+     .secondary-button{
+        border: 1px solid grey;
+        padding: 10px 16px;
+        text-decoration: none;
+     }
+     .phone-img{
+    overflow: hidden;
+    width: 450px;
+    text-align: right;
+    margin-top: 90px; 
+     }
+      .authors-headline{
+        text-align: center;
+        margin-top: 90px;
+    }
+     h2{
+        font-weight: 600;
+        font-size: 36px;
+        margin-bottom: 12px;
+     }
+     .authors-paragraph{
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 36px;
+     }
+     .authors-text,
+     .designer-text,
+     .designer-block
+     {
+        display: inline-block;
+        margin: 0 auto;
+        vertical-align: top;
+    }
+    .designer-text{
+        margin-left: 34px;
+        margin-right: 112px;
+        }
+        .authors-logo{
+            margin-top: 20px;
+        }
+    h3{
+        font-weight: 600;
+        font-size: 27px;
+        margin-bottom: 0;
+        margin-top: 0;
+         }
+    h4{
+        font-size: 21px;
+        font-weight: 500;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .authors-designer{ 
+        color: #575757;
+    }
+    h5,h6{
+        color: #DEA405;
+    }
+    h5,h6,
+    .designer-name{
+        text-align: left;
+    }
+    h5{
+        margin-bottom: 0;
+        font-weight: 500;
+        font-size: 21px;
+        text-align: left;
+        margin-top: 8px;
+    }
+    h6{
+        color: #DEA405;
+        margin-bottom: 8px;
+        margin-top: 0;
+    }
+    .designer-icons{
+        text-align: left;
+        margin-left: 196px;
+        vertical-align: top;
+        margin-top: -30px;
+    }
+    .designer-icon{
+        margin-right: 19px;
+    }
+    .designer-block{
+        text-align: right;
+    }
+    .grdesigner{
+        overflow: hidden;
+    }
+    .for{
+        background-color:#0062FF;
+        margin-top: 143px ;
+        color: white;
+        text-align: center;
+    }
+    .for-headline{
+        padding-top: 71px;        
+    }
+    .for-paragraphs{
+        width: 350px;
+    }
+    .students,
+    .freelancers,
+    .agency,
+    .marketers{
+        text-align: center;
+        width: 622px;
+        vertical-align: text-top;
+        display: inline-block;
+    }
+    .for-img, 
+    .for-text{
+        display: inline-block;
+    }
+
+    .for-img{
+        width: 122px;
+        text-align: left;
+    }
+    .for-text{
+        width: 451px;
+        text-align: left;
+        margin-left: 34px;
+    }
+    .main-btn{
+        color: #2203E4;
+        padding: 10px 16px;
+        font-size: 16px;
+        margin-bottom: 71px;
+        margin-top: 64px;
+    }
+    .demo-headline{
+        text-align: center;
+        margin-top: 63px;
+    }
+    .designer-prgf{
+        margin-top: 12px;
+    }
+    .demo-video, 
+    .demo-sandbox,
+    .demo-documentation{
+        width: 611px;
+        text-align: center;
+        margin-left: 80px;
+        margin-top: 24px;
+    }
+    .demo-video{
+        margin-top: 55.5px;
+    }
+    .demo-text,
+    .video-img{
+        display: inline-block;
+    }
+    .opinions{
+        background-color: #FFBE0B;
+        margin-top: 130px;
+        padding-bottom: 67px;
+    }
+    .opinions-headline{
+        text-align: center;
+        padding-top: 67px;
+        padding-bottom: 42px;
+    }
+    .demo-prgf{
+        color: #575757;
+        font-size: 16px;
+        margin: 0 0;
+    }
+    .ceo-text{
+        width: 700px;
+        background-color: white;
+        text-align: center;
+        border: 1px solid white;
+        margin: 0 auto;
+        border-radius: 10px;
+        text-align: left;
+    }
+    .speech-img,
+    .ceo-name,
+    .stars-img{
+        display: inline-block;
+        padding-top: 48.5px;
+    }
+    .speech-img{
+        padding-top: 94.5px;
+        padding-left: 16px;
+        padding-right: 12px;
+    }
+    .ceo-name{
+        width: 168px;
+    }
+    .stars-img{
+        padding-top: 78.5px;
+        vertical-align: top;
+    }
+    .demo-paragraph{
+        margin-left: 75px;
+        padding-bottom: 59.5px;
+        padding-top: 16px;
+    }
+    .start-text{
+        text-align: center;
+        margin-top: 89px;
+        margin-bottom: 74px;
+    }
+    .iphone-img,
+    .title-text{
+        display: inline-block;
+    }
+    .iphone-img{
+        margin-left: 158px;
+        margin-bottom: 97px;
+    }
+    .title-text{
+        vertical-align: top;
+        padding-top: 67px;
+    }
+    .stars-img2, 
+    .title-reviews{
+        display: inline-block;
+    }
+    .title-reviews{
+        padding-left: 17px;
+        margin-top: 0;
+        vertical-align: middle;
+    }
+    .mytitle{
+        margin-top: 5px;
+        color: #2203E4
+        ;
+    }
+    .title-button{
+        padding-top: 16px;
+    }
+    .discount{
+        text-align: center;
+    }
+    form{
+        margin-top: 28px;
+    }
+    input,
+    a.discount-button{
+        width: 508px;
+    }
+    input{
+        padding: 25px 0;
+        border-radius: 10px;
+        background-color: rgba(58, 134, 255, 0.2);
+        border-color: rgba(58, 134, 255, 0.2);
+        color: aqua;
+        margin-bottom: 24px;
+    }
+    input::placeholder{
+        color: #2203E4;
+        padding-left: 24px;
+    }
+    a.discount-button.main-button{
+        padding-left: 161.5px;
+        padding-right: 161.5px;
+    }
