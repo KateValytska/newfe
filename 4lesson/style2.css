@@ -12,26 +12,29 @@ html, body {
     width: 1296px;
     margin: 0 auto;
 }
-header{
-    padding: 22px 0;
-    }
-.logo,
-.navigation,
-.Buy{
-    display: inline-block;
+*{
+    box-sizing: border-box;
 }
-
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+header{
+    padding: 16px 0;
+    }
 .logo{
     width: 720px;
     font-weight: 600;
     font-size: 27px;
+    float: left;
 }
 .navigation{
     font-weight: 500;
-    vertical-align: 20px;
-    text-align: right;
     font-size: 21px;
     line-height: 120%;
+    float: right;
+    padding-top: 28.5px;
  }
 .navigation-icon{
     color: black;
@@ -45,18 +48,14 @@ a.Buy{
     padding: 10px 16px;
     text-decoration: none;
  }
- .phone-img,
  .phone-text{
-    display: inline-block;
- }
- .phone-text{
-    width: 631px;
+    width: 700px;
     vertical-align: top;
     padding-left: 90px;
     padding-top: 200px;
+    float: left;
     }
     h1{
-    text-align: left;
     font-size: 47px;
     margin: 24px 0;
     font-weight: 700;
@@ -82,9 +81,8 @@ a.Buy{
         text-decoration: none;
      }
      .phone-img{
-    overflow: hidden;
-    width: 450px;
-    text-align: right;
+    float: right;
+    width: 500px;
     margin-top: 90px; 
      }
       .authors-headline{
@@ -101,15 +99,7 @@ a.Buy{
         margin-top: 0;
         margin-bottom: 36px;
      }
-     .authors-text,
-     .designer-text,
-     .designer-block
-     {
-        display: inline-block;
-        margin: 0 auto;
-        vertical-align: top;
-    }
-    .designer-text{
+     .designer-text{
         margin-left: 34px;
         margin-right: 112px;
         }
@@ -312,11 +302,9 @@ a.Buy{
     }
     .discount{
         text-align: center;
-        padding-bottom: 103.63px;
     }
     form{
         margin-top: 28px;
-        padding-bottom: 14px;
     }
     input,
     a.discount-button{
@@ -328,6 +316,7 @@ a.Buy{
         background-color: rgba(58, 134, 255, 0.2);
         border-color: rgba(58, 134, 255, 0.2);
         color: aqua;
+        margin-bottom: 24px;
     }
     input::placeholder{
         color: #2203E4;
