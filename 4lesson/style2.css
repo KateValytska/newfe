@@ -100,11 +100,13 @@ a.Buy{
         margin-bottom: 36px;
      }
      .designer-text{
-        margin-left: 34px;
+        margin-left: 46px;
         margin-right: 112px;
+        float: left;
         }
-        .authors-logo{
-            margin-top: 20px;
+    .authors-logo{
+        margin-top: 7px;
+        float: left;
         }
     h3{
         font-weight: 600;
@@ -140,20 +142,23 @@ a.Buy{
         margin-bottom: 8px;
         margin-top: 0;
     }
-    .designer-icons{
-        text-align: left;
-        margin-left: 196px;
-        vertical-align: top;
-        margin-top: -30px;
-    }
     .designer-icon{
         margin-right: 19px;
     }
     .designer-block{
         text-align: right;
+        float: right;
+        margin-left: 8px;
+        margin-right: 89px;
+    }
+    .designer-name{
+        margin-left: -16px;
     }
     .grdesigner{
-        overflow: hidden;
+        vertical-align: bottom;
+    }
+    .title2{
+        margin-left: 16px
     }
     .for{
         background-color:#0062FF;
@@ -164,31 +169,32 @@ a.Buy{
     .for-headline{
         padding-top: 71px;        
     }
-    .for-paragraphs{
-        width: 350px;
-    }
     .students,
     .freelancers,
     .agency,
     .marketers{
         text-align: center;
-        width: 622px;
-        vertical-align: text-top;
-        display: inline-block;
+        width: 607px;
     }
-    .for-img, 
-    .for-text{
-        display: inline-block;
+    .students, 
+    .agency{
+        float: left;
     }
-
+    .freelancers,
+    .marketers{
+        float: right;
+    }
     .for-img{
-        width: 122px;
-        text-align: left;
+        float: left;
     }
     .for-text{
         width: 451px;
-        text-align: left;
-        margin-left: 34px;
+        text-align: justify;
+        float: right;
+        padding-top: 25px;
+    }
+    .agency-marketers{
+        padding-top: 26px;
     }
     .main-btn{
         color: #2203E4;
@@ -211,13 +217,10 @@ a.Buy{
         text-align: center;
         margin-left: 80px;
         margin-top: 24px;
+        float: left;
     }
-    .demo-video{
-        margin-top: 55.5px;
-    }
-    .demo-text,
     .video-img{
-        display: inline-block;
+        margin-top: 55.5px;
     }
     .opinions{
         background-color: #FFBE0B;
@@ -246,8 +249,8 @@ a.Buy{
     .speech-img,
     .ceo-name,
     .stars-img{
-        display: inline-block;
-        padding-top: 48.5px;
+        padding-top: 59.5px;
+        float: left;
     }
     .speech-img{
         padding-top: 94.5px;
@@ -258,53 +261,54 @@ a.Buy{
         width: 168px;
     }
     .stars-img{
-        padding-top: 78.5px;
+        padding-left: 7px;
         vertical-align: top;
     }
     .demo-paragraph{
         margin-left: 75px;
         padding-bottom: 59.5px;
-        padding-top: 16px;
+        float: left;
+        margin-top: -5px;
     }
     .start-text{
         text-align: center;
         margin-top: 89px;
         margin-bottom: 74px;
     }
-    .iphone-img,
-    .title-text{
-        display: inline-block;
-    }
     .iphone-img{
         margin-left: 158px;
         margin-bottom: 97px;
+        float: left;
+        width: 137px;
     }
     .title-text{
-        vertical-align: top;
         padding-top: 67px;
+        float: left;
+        padding-left: 165px;
     }
-    .stars-img2, 
-    .title-reviews{
-        display: inline-block;
+    .stars-img2{
+        float:left;
     }
     .title-reviews{
         padding-left: 17px;
-        margin-top: 0;
-        vertical-align: middle;
+        margin-top: 5px;
+        float: right;
     }
     .mytitle{
-        margin-top: 5px;
-        color: #2203E4
-        ;
+        color: #2203E4;
+        margin-right: 350px;
     }
-    .title-button{
+    .title-headline{
         padding-top: 16px;
+        padding-bottom: 26px;
     }
     .discount{
         text-align: center;
+        margin-bottom: 103px;
     }
     form{
         margin-top: 28px;
+        margin-bottom: 40px;
     }
     input,
     a.discount-button{
@@ -316,7 +320,6 @@ a.Buy{
         background-color: rgba(58, 134, 255, 0.2);
         border-color: rgba(58, 134, 255, 0.2);
         color: aqua;
-        margin-bottom: 24px;
     }
     input::placeholder{
         color: #2203E4;
