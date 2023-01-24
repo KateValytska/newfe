@@ -1,0 +1,69 @@
+.diya-img,
+.flag1,
+.flag2{
+    width: 512px;
+    height: 512px;
+}
+.diya-img{
+    background-color: black;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+.diya{
+    padding-top: 129px;
+}
+.flag-img{
+    padding-top: 32.48px;
+}
+.flag1{
+    position: relative;
+    left: 400px;
+    top: -70px;
+    z-index: 2;
+}
+.yellow,
+.blue{
+    height: 256px;
+    width: 512px;
+}
+.yellow{
+    background-color: #FFCE22;
+}
+.blue{
+    background-color: #2137FC;
+}
+.glyph{
+    position: absolute;
+    z-index: 3;
+    top: 145px;
+    left: 50px;
+}
+.flag2{
+    position: relative;
+    background-color: #E5E5E5;
+    left: 800px;
+    top: -140px;
+}
+.glyph2{
+    position: absolute;
+    z-index: 5;
+    top: 235px;
+    left: 75px;
+}
+.blue-img{
+    z-index: 4;
+    top: 22px;
+    position: absolute;
+    left: 38px;
+}
+.picture{
+    z-index: 1;
+     width: 445px; 
+     height: 445px;
+     background: #FFCE22;
+     border-radius: 60%;
+     right: 30px;
+     top: 30px;
+     position: absolute;
+}

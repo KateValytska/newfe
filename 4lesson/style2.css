@@ -22,6 +22,10 @@ html, body {
   }
 header{
     padding: 16px 0;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    background-color: white;
     }
 .logo{
     width: 720px;
@@ -296,7 +300,6 @@ a.Buy{
     }
     .mytitle{
         color: #2203E4;
-        margin-right: 350px;
     }
     .title-headline{
         padding-top: 16px;
@@ -308,7 +311,7 @@ a.Buy{
     }
     form{
         margin-top: 28px;
-        margin-bottom: 40px;
+        margin-bottom: 14px;
     }
     input,
     a.discount-button{
@@ -326,6 +329,7 @@ a.Buy{
         padding-left: 24px;
     }
     a.discount-button.main-button{
-        padding-left: 161.5px;
-        padding-right: 161.5px;
+        padding-left: 160.5px;
+        padding-right: 160.5px;
+        display: block;
     }
