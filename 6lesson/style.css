@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap');
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #000000;
+    font-weight: 600;
+    line-height: 32px;
+    font-style: normal;
+}
+.wide-wrapper{
+    width: 1920px;
+    margin: 0 auto;
+}
+.wrapper{
+    width: 1463px;
+    margin: 0 auto;
+}
+*{
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h2{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFC178;
+    position: relative;
+    line-height: 25px;
+    letter-spacing: 6px;
+}
+h2::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -102px;
+    top: 11px;
+    height: 2px;
+    width: 72px;
+    background-color: #FFC178;
+}
+.background{
+    background-image: linear-gradient(173deg, #000000 0%, rgba(0, 0, 0, 0) 45.78%), linear-gradient(175deg, rgba(0, 0, 0, 0) 55.06%, #000000 100.93%), url(../6lesson/img/backg1.png);
+    background-position: center;
+    height: 1573px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1920px;
+    position: relative;
+}
+.logo{
+    padding-top: 58px;
+}
+.header-top{
+    padding-top: 60px;
+}
+.logo{
+    padding-left: 66px;
+    float: left;
+    padding-right: 615px;
+}
+.header-link{
+    padding-left: 50px;
+    float: left;
+}
+.search-block{
+    float: right;
+    margin-top: -25px;
+    padding-right: 24px;
+}
+.icon{
+    opacity: 0.3;
+    margin-right: 17px;
+}
+.search-btn{
+    background-color: transparent;
+    border: none;
+    display: inline;
+    color: white;
+}
+[type="Search"]{
+    background: transparent;
+    border: none;
+    font-size: 17px;
+    color: white;
+    width: 84px;
+}
+.main-h{
+    top: 287px;
+    left: 608px;
+    position: absolute;
+}
+.vertical-text{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    position: absolute;
+    top: 359px;
+    left: 79px;
+    font-weight: 600;
+}
+.vertical-link{
+    padding-bottom: 26px;
+}
+.top-link{
+    padding-top: 22px;
+}
+.discover-title{
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100px;
+    font-style: normal;
+    text-transform: capitalize;
+    position: absolute;
+    top: 280px;
+    left: 500px;
+}
+.discover-title2{
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 100px;
+}
+.scroll{
+    position: absolute;
+    top: 674px;
+    left: 897px;
+    font-weight: 600;
+}
+.east-nusa{
+    position: relative;
+    top: -120px;
+}
+.east-img{
+    float: left;
+    padding-right: 232px;
+}
+.text-block{
+    float: right;
+    width: 632px;
+    margin-top: 60px;
+}
+.east-h2{
+    left: 105px;
+}
+h3{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    margin-bottom: 27px;
+    margin-top: 27px;
+}
+.readmore, 
+.arrow-right{
+    color: #FBD784;
+    font-weight: 700;
+    line-height: 25px;
+    margin-top: 27px;
+}
+.bromo{
+    background-image: linear-gradient(359deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 50.55%), url(../6lesson/img/image2.png);
+    height: 985px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 130px;
+    position: relative;
+}
+.bromo-h2::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 540px;
+    top: 11px;
+    height: 2px;
+    width: 72px;
+    background-color: #FFC178;
+}
+.bromo-line::before{
+    left: 315px;
+}
+.arrow-l,
+.arrow-r{
+    position: absolute;
+    font-size: 25px;
+    opacity: 0.7;
+    top: 410px;
+}
+.arrow-l{
+    position: absolute;
+    left: 50px;
+}
+.arrow-r{
+    position: absolute;
+    left: 1400px;
+}
+.block2{
+    position: absolute;
+    top: 473px;
+    left: 264px;
+    width: 934px;
+    text-align: center;
+}
+.culture{
+    margin-top: 226px;
+    margin-bottom: 270px;
+}
+.culture-img{
+    float: right;
+}
+.block3{
+    float: left;
+    margin-left: 43px;
+    margin-top: 116px;
+}
+.culture-h2{
+    margin-left: 105px;
+}
+.culture-text{
+    font-weight: 400;
+}
+.bottom{
+    margin-bottom: 55px;
+}
+.logo2-img,
+.logo2{
+    float: left;
+    width: 173px;
+}
+.bottom-link, 
+.button-bottom{
+    float: right;
+}
+.bottom-link{
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.3px;
+    margin-right: 55.5px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+.button-bottom{
+    background-color: #FFA343;
+    color: #000000;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22.13px;
+    padding: 24px 64px;
+    border-radius: 10px;
+    border: 1px solid #FFA343;
+    margin-top: -20px;
+}
+hr{
+    width: 1460px;
+    height: 1.35px;
+    opacity: 0.3;
+}
+footer{
+    margin-bottom: 141px;
+}
+.vacation-title{
+    width: 400px;
+    float: left;
+}
+.footer-h4{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49.03px;
+    margin-top: 0;
+}
+.email-btn{
+    border: none;
+    background: transparent;
+}
+[type="Email"]{
+    background: transparent;
+    border: none;
+    font-size: 17px;
+    color: white;
+    width: 300px;
+    border-bottom: #FFFFFF;
+    height: 70px;
+    border-bottom: 0.3px solid rgba(255, 252, 252, 0.3);
+    border-bottom: ;
+}
+.email-button{
+    color: black;
+    border: 1px solid #FFA343;
+    background: #FFA343;
+    width: 70px;
+    display: inline-block;
+    padding: 22px 27px;
+    height: 77px;
+    border-radius: 10px 10px 0 0;
+}
+.footer-lists{
+    margin-top: 70px;
+    width: 1420px;
+}
+.services,
+.about,
+.help{
+    float: left;
+    width: 146px;
+    margin-top: -5px;
+}
+.services{
+    margin-left: 210px;
+}
+ul{
+    list-style-type: none;
+}
+.services,
+.about{
+    margin-right: 180px;
+}
+li{
+    padding-top: 21px;
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: -0.2px;
+}
+.list-name{
+    color: #FFD1A0;
+    font-weight: 700;
+    font-size: 20px;
+}
+.privacy{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19.53px;
+    letter-spacing: -0.2px;
+    margin-bottom: 160px;
+}
+.terms,
+.policy{
+    display: inline-block;
+}
+.terms{
+    padding-left: 40px;
+    padding-right: 65px;
+}
+.socials{
+    float: right;
+    margin-top: -5px;
+}
+a.privacy-link{
+    padding-left: 51px;
+}
+.social{
+    font-size: 25px;
+}
+.copyright-text{
+    line-height: 32px;
+    opacity: 0.5;
+    margin-bottom: 118px;
+    text-align: center;
+}
