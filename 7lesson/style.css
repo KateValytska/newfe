@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+.html,body{
+    font-family: Montserrat, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+*{
+    box-sizing: border-box;
+}
+.wide-wrapper{
+    margin: 0 auto;
+}
+.wrapper{
+    width: 1165px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.background-header{
+    background-image: url(../7lesson/img_bakery/backg.png);
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.logo{
+    padding-top: 6px;
+    margin-left: -31px;
+}
+.navigation,
+.basket{
+    font-size: 15px;
+    line-height: 18px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header-link{
+    margin-left: 19px;
+}
+.header-link:first-child{
+    margin-left: 0;
+}
+.header-link:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 9px;
+}
+.navigation{
+    margin-right: 49px;
+}
+.price-link{
+    margin-left: 8px;
+    margin-right: 8.5px;
+}
+.bakery-text h1{
+    margin-top: 97px;
+    font-weight: 800;
+    font-size: 73px;
+    line-height: 74px;
+    margin-bottom: 21px;
+}
+.bakery-prgh{
+    width: 568px;
+    font-size: 21px;
+    line-height: 26px;
+    margin-bottom: 88px;
+}
+.bakery-link{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 30px 30px;
+    background: #C98D5A;
+    border: 1px solid #C98D5A;
+    border-radius: 50px;
+}
+.why-block{
+    padding-top: 60px;
+    padding-bottom: 84px;
+    color: #151616;
+    background-color: #E5E5E5;
+}
+h2{
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 74px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0;
+}
+.arrow-img{
+    margin-top: 35px;
+    justify-content: center;
+}
+.why-items{
+    width: 1016px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 51.6px;
+}
+.why-item{
+    width: 235px;
+    padding-top: 13px;
+}
+.why-block p{
+    padding-top: 38px;
+    position: relative;
+}
+.why-block p::before{
+    content: "";
+    position: absolute;
+    text-align: center;
+    height: 3px;
+    width: 216px;
+    background-color: #767676;
+    margin: 0 auto;
+    top: 5px;
+}
+.catalogue{
+    background-image: url(../7lesson/img_bakery/catalogue.png);
+    height: 860px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 53px;
+    color: #C4C4C4;
+}
+.catalogue-buttons{
+    padding-top: 67px;
+}
+button{
+    padding: 15px 45px;
+    font-weight: 500;
+    line-height: 26px;
+    background-color: transparent;
+    border: 1px solid #C4C4C4;
+    color: #C4C4C4;
+    border-radius: 50px;
+    margin-right: 8px;
+}
+button:hover{
+    background-color:#C98D5A;
+    color: #151617;
+}
+.catalogue-items{
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 73px;
+    margin-left: 73px;
+    margin-right: 53px;
+}
+.catalogue-bread{
+    width: 307px;
+    border: 1px solid #151617;
+    background-color: #1F1F1F;
+    text-align: center;
+    border-radius: 50px;
+}
+.catalogue-bread:nth-child(2){
+    margin-right: 54px;
+    margin-left: 54px;
+}
+.catalogue-bread h3{
+    text-transform: capitalize;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-bottom: 0;
+}
+.catalogue-bread img{
+    margin: 0 auto;
+}
+.catalogue-bread p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: capitalize;
+    margin-bottom: 13px;
+}
+.catalogue-text{
+    margin-top: 0px;
+}
+.podoviy img{
+    margin-top: 29px;
+}
+.darnytskyi img{
+    margin-top: 0px;
+}
+.darnytskyi p{
+    margin-top: -27px;
+}
+.arrow-price{
+    width: 240px;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 17px;
+}
+.arrow-price button{
+    background-color: #F59B4D;
+    color: #1F1F1F; 
+    padding: 9px 1px;
+    vertical-align: middle;
+    border: none;
+    font-size: 15px;
+    line-height: 18px;
+    width: 70px;
+    border-radius: 0;
+    border-color: #F59B4D; 
+}
+.arrow-price img{
+    margin: 0 0;
+}
+.about-block{
+    color: black;
+    padding-top: 47px;
+    background: white;
+    padding-bottom: 76px;
+}
+.about-block img{
+    margin-bottom: 26px;
+}
+.about-text{
+    text-align: right;
+}
+.about-block p{
+    font-size: 20px;
+    line-height: 24px;
+
+}
+.products{
+    background-image: url(../7lesson/img_bakery/fresh-brown-bread-on-the-table\ 1.png);
+    height: 750px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; 
+    padding-top: 73px;
+    padding-bottom: 12px;
+}
+.products h2{
+    margin-bottom: 64px;
+}
+.products-img{
+    justify-content: space-around;
+    width: 1000px;
+    margin: 0 auto;
+}
+.products-img1,
+.products-img2,
+.products-img3{
+    width: 300px;
+}
+.products-img1 img:first-child{
+    padding-bottom: 20px;
+}
+.products-img3 img:first-child{
+    padding-bottom: 20px;
+}
+footer{
+    background-color: #121413;
+    flex-direction: row;
+    padding-bottom: 12px;
+}
+logo2{
+    justify-content: flex-start;
+}
+.phones{
+    justify-content: flex-end;
+}
+.location{
+    padding-top: 26px;
+    padding-left: 102px;
+}
+h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.location p{
+    font-size: 16px;
+    line-height: 20px;
+}
+.phones{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    justify-content: flex-end;
+}
