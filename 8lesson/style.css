@@ -93,43 +93,6 @@ nav{
 .mobile{
     display: none;
 }
-@media (395px<=width<=1400px) {
-    .nav-link{
-        display: none;
-    }
-    .mobile{
-        display: inline;
-        background-color: var(--header-bg);
-        border: none;
-        color: var(--main-color);
-        font-size: 1.5em;
-        text-align: right;
-        margin-right: 0;
-    }
-    .fa-bars{
-        display: inline;
-    }
-    .fa-times{
-        display: none;
-    }
-    .header-text{
-        justify-content: space-between;
-        margin: 0;
-        width: 96%;
-        margin: 0 auto;
-    }
-    mobile.active.fa-bars{
-        display: none;
-    }
-    mobile.active.fa-times{
-        display: inline;
-    }
-    active.nav-link{
-        display: block;
-        --main-color:#668E68;
-        color: var(--main-color);
-    }
-}
 .name{
     background-image: url(img/coffee.png);
     background-size: cover;
@@ -145,21 +108,6 @@ h1{
     margin: 0;
     padding-top: 171px;
     padding-bottom: 172px;
-}
-@media (395px<=width<=1400px){
-    .wrapper{
-        width: 96%;
-    }
-    .name{
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    h1{
-        font-size: 2.8em;
-        padding-top: 150px;
-        padding-bottom: 140px;
-    }
 }
 .menu{
     color: black;
@@ -214,23 +162,6 @@ h1{
     background-repeat: no-repeat;
     position: relative;
 }
-@media (395px<=width<=1400px) {
-    .wrapper{
-        width: 96%;
-    }
-    .menu-links{
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-    .menu-drinks,
-    .menu-cakes,
-    .menu-foods{
-        width: 350px;
-        height: 350px;
-        margin-bottom: 30px;
-        background-position: center;
-    }
-}
 .about{
     background-image: url(img/cafe.png);
     background-size: cover;
@@ -249,16 +180,6 @@ h1{
     line-height: 0.9em;
     padding-top: 32px;
     padding-bottom: 60px;
-}
-@media (395px<=width<=1400px){
-    .wrapper{
-        width: 96%;
-    }
-    .about{
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-    }
 }
 .news{
     background-color:rgba(129, 97, 59, 0.2);
@@ -311,6 +232,87 @@ footer{
     top: 127px;
     right: 20px;
 }
+@media (395px<=width<=1400px){
+    .nav-link{
+        display: none;
+    }
+    .mobile{
+        display: inline;
+        background-color: var(--header-bg);
+        border: none;
+        color: var(--main-color);
+        font-size: 1.5em;
+        text-align: right;
+        margin-right: 0;
+    }
+    .mobile>i.fa-bars{
+        display: inline;
+    }
+    .mobile>i.fa-times{
+        display: none;
+    }
+    .header-text{
+        justify-content: space-between;
+        margin: 0;
+        width: 96%;
+        margin: 0 auto;
+    }
+    .mobile,.active>i.fa-bars{
+        display: none;
+    }
+    .mobile,.active>i.fa-times{
+        display: inline;
+    }
+    nav,.active{
+        position: absolute;
+        right: 0;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        padding: 42px 46px 42px 46px;
+        top: 57px;
+        right: 0;
+    }
+    .nav-link,.active{
+        --main-color:#668E68;
+        color: var(--main-color);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding-bottom: 27px;
+        margin: 0;
+    }
+    .wrapper{
+        width: 96%;
+    }
+    .menu-links{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .menu-drinks,
+    .menu-cakes,
+    .menu-foods{
+        width: 350px;
+        height: 350px;
+        margin-bottom: 30px;
+        background-position: center;
+    }
+    .name{
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    h1{
+        font-size: 2.8em;
+        padding-top: 150px;
+        padding-bottom: 140px;
+    }
+    .about{
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+    }
+}
 @media (395px<=width<=600px){
     .news br{
         display: inline;
@@ -337,10 +339,5 @@ footer{
     .up-sign{
         position: sticky;
         bottom: 20px;
-    
     }
-
-    
- 
-    
 }
